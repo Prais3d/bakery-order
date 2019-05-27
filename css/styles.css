@@ -1,0 +1,128 @@
+body{
+	background: gray;
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding:0;
+			
+}
+header{
+	
+	background: black;
+	background-image:url("../images/coffe.jpg");
+	background-size: 100%; 
+	background-position: center;
+
+	height: 400px;
+	padding: 20px;
+	text-align: center;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+header .mobile {
+	display: none;
+}
+
+header .logo{
+		background-image: url("../images/logo.png");
+		background-size: 300px;
+		background-repeat: no-repeat;
+		display: inline-black;
+		height:180px;
+		position: relative;
+		text-indent: -99999999px;
+		top:-68px;
+		width:300px;
+		margin-top:60px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+/*responsive ruess */
+
+@media screen and (max-width: 724px){
+	header{
+		height: 250px;
+	}
+	header .mobile {
+		display: inline-block;
+	}
+	header .desktop{
+		display:none;
+	}
+}	
+
+
+.features{
+
+	background: white;
+	color: gray;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	height: 370px;
+}
+.features figure{
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2;
+	width: 200px;
+				
+}
+.features figure img{
+	margin: auto;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: gray 0 0 10px;
+	width: 200px;
+}
+@media screen and (max-width: 724px){
+	.features{
+		height: 520px
+	}
+}
+
+
+ul{
+	margin;0;
+	padding:0;
+	list-style-type:  none;
+}
+li{
+	display: inline-block;
+	margin-right: 20px;
+		
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+		
+footer{
+	background: black;
+	color: gray;
+  font-size: 12px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+
+			
